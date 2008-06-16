@@ -10,6 +10,10 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'spork', '~> 0.9.2'
+gem 'rspec-autotest'
+gem 'ZenTest', '~> 4.11.0'
+gem 'capybara', '~> 2.4.4'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
